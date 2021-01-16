@@ -1,180 +1,120 @@
 const help = (prefix) => {
 	return `
-<¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T>
-      MELHOR BOT
- <¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T>
 
-__¨€¨€¨€¨€¨€¨€¨€¨€¨€  ¡ñ 3é20Ð20È0¡ñ3ã13â0¦­3•4¡ñ         
-__¨€¨{¨€¨€¨€¨€¨€¨{¨€   Author    : MATEU :)
-__¨€¨‹¨‹¨‹¨‹¨‹¨€ 
-_¨€¨€        ¨€¨€
-__¨€¡ø¡ø¡ø¡ø¡ø¨€ 
-__¨€¨€¨€¨€¨€¨€¨€¨€¨€ 
-____¨€¨€  ¨€¨€
-
-¨X¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T
-¨U 3ç10Ð23ã13á8¦­3à80Ð20ì3 3ç03ä60ì30È03á83à80Ð20ì3
-¨d¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T
-¨U   3â0§·3ç13ç03•40ì33ä63æ50Ð2 3ç43á83à93á8 3á83à83ã1'0ì3
-¨U¨q©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}welcome [0/1]
-¨U©À> ${prefix}bv [0/1]
-¨U©À> ${prefix}bemvindo [0/1]
-¨U©À> ${prefix}boasvindas [0/1]
-¨U©À©¤©¤©¤©¤> desativar/ativa bv
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}add 55xxx
-¨U©À> ${prefix}adicionar 55xxx
-¨U©À©¤©¤©¤©¤> add menbro
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}kick @membro
-¨U©À> ${prefix}ban @membro
-¨U©À> ${prefix}remover @membro
-¨U©À©¤©¤©¤©¤> remover membro
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}promote @membro
-¨U©À> ${prefix}promover @membro
-¨U©À©¤©¤©¤©¤> promover a ADM
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}demote @adm
-¨U©À> ${prefix}promover @adm
-¨U©À©¤©¤©¤©¤> rebaixar a membro
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}grup abrir/fechar
-¨U©À> ${prefix}group abrir/fechar
-¨U©À> ${prefix}grupo abrir/fechar
-¨U©À©¤©¤©¤©¤> bem espec¨ªfico ;-;
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}setname seu txt
-¨U©À> ${prefix}mudarnome seu txt
-¨U©À©¤©¤©¤©¤> troca nome do grupo
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}setdesc seu txt
-¨U©À> ${prefix}mudardesc seu txt
-¨U©À©¤©¤©¤©¤> troca descri0Š40Š0o
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}mudarfoto
-¨U©À©¤©¤©¤©¤> mudar foto do grupo
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}marcar
-¨U©À©¤©¤©¤©¤> marca0Š40Š0o
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}marcar2
-¨U©À©¤©¤©¤©¤> marca0Š40Š0o 2
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}marcar3
-¨U©À©¤©¤©¤©¤> marca0Š40Š0o
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> 3à80Ð23æ0¦­3ç00Ð23á83à8/3ç03ä6¦­3ç8
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}tiktokstalk Nick da conta
-¨U©À©¤©¤©¤©¤> stalk de tiktok
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}fototiktok
-¨U©À©¤©¤©¤©¤> foto do tiktok
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}ytmp4 link
-¨U©À> ${prefix}ytvideo link
-¨U©À> ${prefix}ytbuscar link
-¨U©À> ${prefix}ytbaixa link
-¨U©À©¤©¤©¤©¤> baixa v¨ªdeo do YouTube
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À>3ã13ä63à83ä63á8/0Ð23•40È03à90Ð20ì3
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}sticker
-¨U©À> ${prefix}stiker
-¨U©À> ${prefix}fig
-¨U©À> ${prefix}figurinha
-¨U©À©¤©¤©¤©¤> fazer fig cm foto/gif
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}tts seu txt
-¨U©À> ${prefix}gtts seu txt
-¨U©À> ${prefix}audio seu txt
-¨U©À©¤©¤©¤©¤> converter txt em ¨¢udio
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}toimg marca fig
-¨U©À> ${prefix}converter marca fig
-¨U©À©¤©¤©¤©¤> converter fig em foto
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}txtdafoto
-¨U©À> ${prefix}ocr
-¨U©À©¤©¤©¤©¤> pega txt de foto
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}wait marca foto
-¨U©À> ${prefix}pesquisar marca foto
-¨U©À©¤©¤©¤©¤> pesquisa por anime de ft
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}listaadms
-¨U©À> ${prefix}listadmins
-¨U©À> ${prefix}adms
-¨U©À©¤©¤©¤©¤> lista dos adms
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}cachorro
-¨U©À> ${prefix}auau
-¨U©À> ${prefix}dog
-¨U©À©¤©¤©¤©¤> dog fofo aleat¨®rio
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}pokemon
-¨U©À©¤©¤©¤©¤> pokemon aleat¨®rio
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}logo3d seu txt
-¨U©À©¤©¤©¤©¤> logo cm seu texto
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}logoph seu|txt
-¨U©À©¤©¤©¤©¤> logo cm seu texto
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}info
-¨U©À©¤©¤©¤©¤> informa0Š40‹1es do bot
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}listabloq
-¨U©À©¤©¤©¤©¤> n¨²meros bloqueados
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}lofi
-¨U©À©¤©¤©¤©¤> foto ¨²nica de lofi
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}map 0000-0000 
-¨U©À> ${prefix} ${prefix}mapa 0000-0000 
-¨U©À©¤©¤©¤©¤> pega foto do local
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À>3ç10Ð23ã13á8¦­3à80Ð20ì3 3à80Ð2 3ç13à93ä63á83à80Ð23à9
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}hidetag
-¨U©À©¤©¤©¤©¤> esconde tag
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}clearall
-¨U©À> ${prefix}limpar
-¨U©À©¤©¤©¤©¤> limpa zap do bot
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}bloquear @membro
-¨U©À©¤©¤©¤©¤> autobloq
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}desbloquear
-¨U©À©¤©¤©¤©¤> autodesbloq
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}kitar
-¨U©À©¤©¤©¤©¤> bot sai fo grupo
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}bc
-¨U©À©¤©¤©¤©¤> [?]
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}clonar
-¨U©À> ${prefix}clone
-¨U©À©¤©¤©¤©¤> clonar tag
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À>  0ì33•43ç40Ð23à90È03â0
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}bug
-¨U©À> ${prefix}reportar
-¨U©À> ${prefix}reportarbug
-¨U©À©¤©¤©¤©¤> reportar bug ao criador
-¨U©À©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨U©À> ${prefix}sigla nova sigla
-¨U©À> ${prefix}setprefix
-¨U©À©¤©¤©¤©¤> troca sigla de comandos
-¨U©¸©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
-¨^¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T
+â•”â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+â•‘        ðŸŒ¹ððŽð“ðŸŒ¹
+â• â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 
 
+âž¸ Prefix:  *ã€Œ${prefix} ã€*
+âž¸ Status: *ã€Œ Online ã€*
+
+       â€¢ â”€â”€â”€â”€ âœ¾ â”€â”€â”€â”€ â€¢
+       *FIGURINHAS*ã€âœ”ã€‘
+       â€¢ â”€â”€â”€â”€ âœ¾ â”€â”€â”€â”€ â€¢
+      
+âž¸ Comando : *${prefix}sticker* ou *${prefix}stiker*
+âž¸ Ãºtil em : converter imagem/gif/vÃ­deo em adesivo
+âž¸ uso : responder imagem/gif/video ou enviar imagem/gif/video com legenda\n
+âž¸ Comando : *${prefix}sticker nobg* ou *${prefix}stiker nobg*
+âž¸ Ãºtil em : converter imagem em adesivo removendo o fundo
+âž¸ uso : responder imagem ou enviar imagem com legenda/n
+âž¸ Comando : *${prefix}toimg*
+âž¸ Ãºtil em : converter adesivo em imagem
+âž¸ uso : adesivo de resposta\n
+âž¸ Comando : *${prefix}tsticker* ou *${prefix}tstiker*
+âž¸ Ãºtil em : converter texto em adesivo
+âž¸ uso : *${prefix}tsticker seu texto aqui*\n
+
+       â€¢ â”€â”€â”€ âœ¾ â”€â”€â”€ â€¢
+       *MEMES*ã€âœ”ã€‘
+       â€¢ â”€â”€â”€ âœ¾ â”€â”€â”€ â€¢
+      
+âž¸ Comando : *${prefix}meme*
+âž¸ Ãºtil em : mandar imagens aleatÃ³rias de meme [inglÃªs]
+âž¸ uso : basta emviar o comando\n
+âž¸ Comando : *${prefix}memeindo*
+âž¸ Ãºtil em : mandar imagens aleatÃ³rias de meme [indo]
+âž¸ uso : basta enviar o comando
+
+       â€¢ â”€â”€â”€â”€ âœ¾ â”€â”€â”€â”€ â€¢
+       *OUTROS...*ã€âœ”ã€‘
+       â€¢ â”€â”€â”€â”€ âœ¾ â”€â”€â”€â”€ â€¢
+      
+âž¸ Comando : *${prefix}gtts*
+âž¸ Ãºtil em : converter texto em fala/Ã¡udio
+âž¸ uso : *${prefix}gtts [cc] [text]*\nexemplo : *${prefix}gtts ja On2-chan*\n
+âž¸ Comando : *${prefix}loli*
+âž¸ Ãºtil em : mandar imagens aleatÃ³rias de loli
+âž¸ uso : basta enviar o comando\n
+âž¸ Comando : *${prefix}nsfwloli*
+âž¸ Ãºtil em : mandar imagens aleatÃ³rias de nsfw loli
+âž¸ uso : basta enviar o comando\n
+âž¸ Comando : *${prefix}url2img*
+âž¸ Ãºtil em : tirar screenshots da web
+âž¸ uso : *${prefix}url2img [tipe] [url]*\n
+âž¸ Comando : *${prefix}simi*
+âž¸ Ãºtil em : responder sua mensagem por simi
+âž¸ uso : *${prefix}simi sua mensagem*\n
+âž¸ Comando : *${prefix}ocr*
+âž¸ Ãºtil em : pegar o texto da foto e lhe enviar
+âž¸ uso : responder imagem ou enviar mensagem com legenda\n
+âž¸ Comando : *${prefix}wait*
+âž¸ Ãºtil em : pesquisar sobre o anime por imagem [ Que anime Ã© este/que ]
+âž¸ uso : responder imagem ou enviar imagem com legenda\n
+âž¸ Comando : *${prefix}setprefix*
+âž¸ Ãºtil em : alterar o prefixo do bot
+âž¸ uso : *${prefix}setprefix [texto|opcional]*\nexemplo : *${prefix}setprefix ?*
+âž¸ Nota : Usado somente pelo proprietÃ¡rio do bot\n
+
+       â€¢ â”€â”€â”€ âœ¾ â”€â”€â”€ â€¢
+       *GRUPO*ã€âœ”ã€‘
+       â€¢ â”€â”€â”€ âœ¾ â”€â”€â”€ â€¢
+      
+âž¸ Comando : *${prefix}linkgroup*
+âž¸ Ãºtil em : enviar o link do grupo
+âž¸ uso : basta enviar o comando\n
+âž¸ Comando : *${prefix}marcar*
+âž¸ Ãºtil em : marcar todos os membros do grupo, incluindo administradores
+âž¸ uso : basta enviar o comando\n
+âž¸ Nota : VocÃª precisa ser administrador do grupo\n
+âž¸ Comando : *${prefix}simih*
+âž¸ Ãºtil em : ativar o modo simi no grupo
+âž¸ uso : *${prefix}simih 1* para ativar o modo simi e *${prefix}simih 0* para 
+âž¸ desativar o modo simih
+âž¸ Nota : VocÃª precisa ser administrador do grupo\n
+âž¸ Comando : *${prefix}add*
+âž¸ Ãºtil em : adicionar membro ao grupo
+âž¸ uso : *${prefix}add 5585xxxxx*\n
+âž¸ Nota : o bot precisa ser admin!\n
+âž¸ Comando : *${prefix}kick*
+âž¸ Ãºtil em : remover membros do grupo
+âž¸ uso : *${prefix}kick e o @da pessoa*\n
+âž¸ Nota : VocÃª precisa ser admin e o bot tambÃ©m
+âž¸ Comando : *${prefix}promote*
+âž¸ Ãºtil em : tornar membro do grupo um administrador
+âž¸ uso : *${prefix}promote e o @da pessoa*\n
+âž¸ Nota : VocÃª precisa ser admin e o bot tambÃ©m
+âž¸ Comando : *${prefix}demote*
+âž¸ Ãºtil em : tornar o administrador um membro comum
+âž¸ uso : *${prefix}demote e o @da pessoa*\n
+âž¸ Nota : VocÃª precisa ser admin e o bot tambÃ©m
+
+       â€¢ â”€â”€â”€â”€â”€â”€ âœ¾ â”€â”€â”€â”€â”€â”€ â€¢
+       *MENU DO MATEU*ã€âœ”ã€‘
+       â€¢ â”€â”€â”€â”€â”€â”€ âœ¾ â”€â”€â”€â”€â”€â”€ â€¢              
+    
+â•”â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+  FEITO POR ðŸ”¥mateuðŸ”¥
+  DUVIDAS? ðŸ‘‡
+  WA.me/+1 (579) 996-8046
+â•šâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•`
 }
 
 exports.help = help
+
+
+
+
+
+
